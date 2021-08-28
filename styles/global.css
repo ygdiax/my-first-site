@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    height: 100%;
+}
+
+div.container-page {
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+    
+}
+
+div.container-page div.page-body {
+    flex: 1;
+}
+
+p{
+    font-size: 20pt;
+}
+div.menu {
+    margin: 4px;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: blueviolet;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+div.menu a{
+    margin:5px;
+    color:white;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 5px;
+}
